@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="in">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Judul halaman</title>
+  <script src="https://kit.fontawesome.com/0512ed4d86.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="control">
+    <div class="bar">
+      wed
+      <div id="clcenter"></div>
+      <div class="side">
+        66%
+      </div>
+
+    </div>
+    <div class="flex">
+      <div></div>
+      <div></div>
+    </div>
+
+    <div class="flex">
+      <div></div>
+      <div></div>
+    </div>
+    <div class="flex">
+      <div></div>
+      <div class="inactive"></div>
+    </div>
+    <div class="flex">
+      <div></div>
+      <div></div>
+    </div>
+
+    <div class="bulet">
+
+      <div class="active">
+        &#9679;
+      </div>
+      <div>
+        &#9679;
+      </div>
+      <div>
+        &#9679;
+      </div>
+    </div>
+    <br>
+
+    <br>
+    <div class="flex">
+      <div class="inactive-slider"></div>
+      <div class="progress">
+        Slider
+      </div>
+
+    </div>
+    <hr class="divv">
+    <div class="powerflex">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <font class="andr">Conversation</font>
+    <div class="wa">
+      <div class="lilbox">
+        <div></div>
+
+      </div>
+      <font class="float">
+        <i class="fas fa-chevron-down"></i> 5
+      </font>
+      <b>ayang</b>
+      <font class="times">
+        &nbsp; &#9679;  5m</font>
+      <br>
+      <font class="msg"> bukain pintu depann
+
+      </font>
+
+
+
+    </div>
+    <font class="andr">Notification</font>
+    <div class="notif">
+      <div class="lilbox">
+        <div></div>
+      </div>
+      <hr class="music">
+    </div>
+
+
+
+
+    <font class="notbut"	> Clear all</font>
+  </div>
+</body>
+<script>
+  setInterval(() => {
+    const date = new Date().toLocaleTimeString('en-US', {
+      hour: 'numeric',
+      hour12: false,
+      minute: 'numeric',
+      second: 'numeric',
+      timeZone: 'America/Toronto'
+    });
+    //console.log(date);
+    document.getElementById("clcenter").innerHTML = date;
+  }, 1000);
+
+
+</script>
+</html>

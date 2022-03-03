@@ -1,0 +1,277 @@
+body {
+  background-color: #1A212B;
+  font-family: 'Roboto', sans-serif;
+
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.bar {
+  font-weight: 450;
+  color: white;
+  margin-bottom: 10px;
+  font-size: 15px;
+
+}
+.side {
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  margin-top: 9px;
+  margin-right: 10px;
+
+}
+
+#clcenter {
+
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  right: 39%;
+  top: 0%;
+  margin-top: 9px;
+
+}
+.center {
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  right: 45%;
+  top: 0%;
+  margin-top: 8px;
+
+
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+.flex > div:not(.progress) {
+
+  width: 94%;
+  height: 25px;
+  font-weight: 500;
+  padding: 18px 12px;
+  background-color: #89B4F8;
+  margin-top: 9px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 50px;
+  text-align: center;
+  transition: 0.5s;
+}
+.flex > div:hover:not(.progress) {
+  background-color: #3B4453;
+
+}
+.flex > div.inactive:hover {
+  background-color: #89B4F8;
+
+
+}
+.flex > div.inactive {
+  background-color: #3B4453;
+  width: 100%;
+
+}
+.flex > div.inactive-slider {
+  background-color: #3B4453;
+  width: 100%;
+  height: 15px;
+
+}
+.probar {
+  width: 94%;
+  height: 20px;
+  font-weight: 500;
+  padding: 18px 12px;
+  background-color: #3B4453;
+  margin-top: 9px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.progress {
+  margin-top: 9px;
+  width: 39%;
+  height: 15px;
+  padding: 18px 30px 18px 12px;
+  background-color: #89B4F8;
+  position: absolute;
+  border-radius: 50px;
+  text-align: right;
+  font-weight: 500;
+  margin-left: 5px;
+  margin-right: 5px;
+  transition: width 1s;
+}
+.progress:hover {
+  width: 230px;
+}
+.bulet {
+  display: flex;
+  position: absolute;
+
+
+  right: 44%;
+}
+.bulet > div {
+
+  color: #3B4453;
+  margin-right: 5px;
+  margin-top: 5px;
+  width: 5px;
+}
+.bulet > div.active {
+  color: #89B4F8;
+
+}
+.notif {
+  width: 94%;
+  height: 130px;
+
+  background-color: #DAE9FC;
+  border-radius: 20px;
+
+  margin-left: 8px;
+  margin-top: 10px;
+  padding-top: 10px;
+
+  transition: height 1s;
+  margin-bottom: 10px;
+
+}
+.notif .lilbox {
+  padding: 10px 12px;
+  background-color: red;
+  width: 25px;
+  height: 25px;
+
+  margin-left: 10px;
+  border-radius: 15px;
+
+
+
+}
+.notif .lilbox > div {
+
+  padding: 10px 12px;
+  background-color: #89B4F8;
+  width: 2px;
+  height: 5px;
+
+  margin-left: 15px;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+.notif hr.music {
+  padding: 3px;
+  margin: 20px 13px;
+  border-radius: 10px;
+  background-color: #1A212B;
+  border: none;
+}
+hr.divv {
+  padding: 1px;
+  margin: 20px 0px;
+  border-radius: 10px;
+  background-color: #3B4453;
+  border: none;
+
+}
+.powerflex {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+.powerflex > div {
+  width: 94%;
+  height: 9px;
+  font-weight: 500;
+  padding: 18px 12px;
+  background-color: #3B4453;
+  margin: 7px 10px;
+  border-radius: 50px;
+  text-align: center;
+
+
+}
+.wa {
+  width: 94%;
+  height: 55px;
+
+  background-color: #DAE9FC;
+  border-radius: 20px;
+
+  margin-left: 8px;
+  margin-top: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+
+}
+.notif:hover {
+  height: 55px;
+
+
+
+}
+.wa .lilbox {
+  padding: 10px 12px;
+  background-color: red;
+  width: 25px;
+  height: 25px;
+  float: left;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 15px;
+
+
+
+}
+.wa .lilbox > div {
+
+  padding: 10px 12px;
+  background-color: #30c03a;
+  width: 2px;
+  height: 5px;
+
+  margin-left: 15px;
+  border-radius: 50%;
+  margin-top: 15px;
+}
+font.andr {
+  margin-left: 14px;
+  color: whitesmoke;
+  font-size: 13px;
+}
+font.notbut {
+  float: right;
+  margin-right: 14px;
+  margin-bottom: 20px;
+  color: whitesmoke;
+  font-size: 13px;
+  margin-bottom: 70px;
+}
+font.msg {
+  margin-top: 10px;
+  font-size: 14px;
+  color: grey;
+
+}
+font.times {
+  font-size: 10px;
+  color: grey;
+
+}
+font.float {
+  font-family: "FiraCode Nerd Font", monospace;
+  float: right;
+  margin-right: 20px;
+  margin-top: 10px;
+  background-color: #3B4453;
+  padding: 2px 7px;
+  border-radius: 10px;
+  color: white;
+}
