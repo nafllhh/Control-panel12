@@ -51,13 +51,15 @@ body {
   width: 94%;
   height: 25px;
   font-weight: 500;
-  padding: 18px 12px;
+  padding: 20px 23px;
   background-color: #89B4F8;
   margin-top: 9px;
   margin-left: 5px;
   margin-right: 5px;
   border-radius: 50px;
-  text-align: center;
+  text-align: left;
+ 
+  font-size: 20px;
   transition: 0.5s;
 }
 .flex > div:hover:not(.progress) {
@@ -94,10 +96,11 @@ body {
 }
 
 .progress {
+ 
   margin-top: 9px;
   width: 39%;
   height: 15px;
-  padding: 18px 30px 18px 12px;
+  padding: 20px 30px 20px 12px;
   background-color: #89B4F8;
   position: absolute;
   border-radius: 50px;
@@ -185,8 +188,10 @@ hr.divv {
   display: flex;
   flex-direction: row;
   margin-bottom: 20px;
+  
 }
 .powerflex > div {
+  color: whitesmoke;
   width: 94%;
   height: 9px;
   font-weight: 500;
