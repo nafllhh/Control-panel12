@@ -58,12 +58,13 @@ body {
   margin-right: 5px;
   border-radius: 50px;
   text-align: left;
- 
+
   font-size: 20px;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 .flex > div:hover:not(.progress) {
   background-color: #3B4453;
+  color:whitesmoke;
 
 }
 .flex > div.inactive:hover {
@@ -73,8 +74,13 @@ body {
 }
 .flex > div.inactive {
   background-color: #3B4453;
+  color: whitesmoke;
   width: 100%;
 
+}
+.flex > div.inactive:hover{
+  color:black;
+  
 }
 .flex > div.inactive-slider {
   background-color: #3B4453;
@@ -96,7 +102,7 @@ body {
 }
 
 .progress {
- 
+
   margin-top: 9px;
   width: 39%;
   height: 15px;
@@ -188,7 +194,7 @@ hr.divv {
   display: flex;
   flex-direction: row;
   margin-bottom: 20px;
-  
+
 }
 .powerflex > div {
   color: whitesmoke;
